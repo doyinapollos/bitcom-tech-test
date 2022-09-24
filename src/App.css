@@ -1,3 +1,128 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sub--header {
+    width: 70%;
+    height: 80px;
+    color: black;
+}
+
+.front-end {
+    padding-top: 10px;
+}
+
+.main--section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aside--left {
+    width: 40%;
+    height: auto;
+}
+
+.experience {
+    margin-top: 30px;
+}
+
+.ul-1 {
+    margin-left: 40px;
+}
+
+.academic-project {
+    margin-top: 30px;
+}
+
+.academic-div {
+    margin-top: 15px;
+}
+
+.specialist-app {
+    margin-top: 15px;
+}
+
+.education {
+    margin-top: 15px;
+}
+
+.education {
+    margin-top: 15px;
+}
+
+.vet--med {
+    margin: 10px 0;
+}
+
+.aside--right {
+    width: 30%;
+    height: auto;
+}
+
+.personal--info-2 {
+    margin-top: 20px;
+}
+
+.phone {
+    margin-top: 15px;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.linked-in {
+    margin-top: 15px;
+}
+
+.git-hub {
+    margin-top: 15px;
+}
+
+.port-folio {
+    margin-top: 15px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.ul-2 {
+    margin-left: 40px;
+}
+
+.language {
+    margin-top: 15px;
+}
+
+.certificate {
+    margin-top: 20px;
+}
+
+.membership {
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
